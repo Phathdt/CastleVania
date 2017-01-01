@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Collision + Quadtree">
+      <UniqueIdentifier>{57799dc3-67a5-4366-b1a1-1cb66fa3f5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Board + Camera">
+      <UniqueIdentifier>{993cebe1-f9af-4e21-af48-782c32304a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{bb267f18-82ec-42e6-8fe4-378a839061fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{f1c46a2d-7754-4d8e-b810-8367e0708ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{5d8f7f7b-5557-458c-bcc3-64ebb6e84440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{b02364aa-9a48-443d-b136-d01d84ab9a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{cd6e5c11-9716-46ad-ba8b-214015705a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Boss">
+      <UniqueIdentifier>{5d4f1165-d9ec-443a-8bfa-992de4b909e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Enemy">
+      <UniqueIdentifier>{d775d02f-86d5-47a7-a887-3dec44c2eb94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Item">
+      <UniqueIdentifier>{bf67b72b-56db-4e36-ada5-fe5d1bcdd967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Player">
+      <UniqueIdentifier>{1ce4b20d-565e-4fc1-8c5d-5fc113f72c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Brick">
+      <UniqueIdentifier>{51414591-d317-484a-9bcb-b9d260843b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\AttackedObject">
+      <UniqueIdentifier>{f898cf52-d2a2-4583-a482-9f7bbc74ce8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Box.h">
+      <Filter>Collision + Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="SweptAABB.h">
+      <Filter>Collision + Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadnode.h">
+      <Filter>Collision + Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadtree.h">
+      <Filter>Collision + Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Collision + Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Board + Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GCamera.h">
+      <Filter>Board + Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoard.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="dsutil.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GAudio.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPath.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GTexture.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GSprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="GObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Medusa.h">
+      <Filter>GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Mummies.h">
+      <Filter>GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Blade.h">
+      <Filter>GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="NextBall.h">
+      <Filter>GameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fleaman.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="MedusaHead.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Raven.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Spearguard.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BonePillar.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Brickhidden.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Brickmoving.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathPlace.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireandle.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Firetower.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Stair.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Stair2.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Stairs.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Stairs2.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Axe.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="BigHeart.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Cross.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleShot.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="HolyWater.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemNone.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Knife.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyBag.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="MorningStar.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Roast.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallHeart.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiritBall.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="StopWatch.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Boomerang.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Simon.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Whip.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponKnife.h">
+      <Filter>GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>GameObject\Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Bricks.h">
+      <Filter>GameObject\Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Rosary.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Box.cpp">
+      <Filter>Collision + Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="SweptAABB.cpp">
+      <Filter>Collision + Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadnode.cpp">
+      <Filter>Collision + Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadtree.cpp">
+      <Filter>Collision + Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Collision + Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Board + Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GCamera.cpp">
+      <Filter>Board + Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoard.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="dsutil.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GAudio.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GTexture.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GSprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConfig.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="GObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Medusa.cpp">
+      <Filter>GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Mummies.cpp">
+      <Filter>GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Blade.cpp">
+      <Filter>GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="NextBall.cpp">
+      <Filter>GameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fleaman.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="MedusaHead.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Raven.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Spearguard.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BonePillar.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Brickhidden.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Brickmoving.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathPlace.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireandle.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Firetower.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Stair.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Stair2.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Stairs.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Stairs2.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>GameObject\AttackedObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Axe.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BigHeart.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Cross.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleShot.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="HolyWater.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemNone.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Knife.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyBag.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="MorningStar.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Roast.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallHeart.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiritBall.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWatch.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Boomerang.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Simon.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Whip.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponKnife.cpp">
+      <Filter>GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>GameObject\Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Bricks.cpp">
+      <Filter>GameObject\Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Rosary.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
