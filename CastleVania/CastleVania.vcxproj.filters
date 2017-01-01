@@ -26,23 +26,26 @@
     <Filter Include="GameObject">
       <UniqueIdentifier>{cd6e5c11-9716-46ad-ba8b-214015705a9f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GameObject\Boss">
-      <UniqueIdentifier>{5d4f1165-d9ec-443a-8bfa-992de4b909e4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObject\Enemy">
-      <UniqueIdentifier>{d775d02f-86d5-47a7-a887-3dec44c2eb94}</UniqueIdentifier>
-    </Filter>
     <Filter Include="GameObject\Item">
       <UniqueIdentifier>{bf67b72b-56db-4e36-ada5-fe5d1bcdd967}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObject\Player">
-      <UniqueIdentifier>{1ce4b20d-565e-4fc1-8c5d-5fc113f72c4f}</UniqueIdentifier>
     </Filter>
     <Filter Include="GameObject\Brick">
       <UniqueIdentifier>{51414591-d317-484a-9bcb-b9d260843b88}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GameObject\AttackedObject">
+    <Filter Include="GameObject\StaticObject">
       <UniqueIdentifier>{f898cf52-d2a2-4583-a482-9f7bbc74ce8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\DynamicObject">
+      <UniqueIdentifier>{4b98147c-44e9-4415-b155-41579c303ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\DynamicObject\Boss">
+      <UniqueIdentifier>{5d4f1165-d9ec-443a-8bfa-992de4b909e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\DynamicObject\Enemy">
+      <UniqueIdentifier>{d775d02f-86d5-47a7-a887-3dec44c2eb94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\DynamicObject\Player">
+      <UniqueIdentifier>{1ce4b20d-565e-4fc1-8c5d-5fc113f72c4f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -107,88 +110,88 @@
       <Filter>GameObject</Filter>
     </ClInclude>
     <ClInclude Include="Medusa.h">
-      <Filter>GameObject\Boss</Filter>
+      <Filter>GameObject\DynamicObject\Boss</Filter>
     </ClInclude>
     <ClInclude Include="Snake.h">
-      <Filter>GameObject\Boss</Filter>
+      <Filter>GameObject\DynamicObject\Boss</Filter>
     </ClInclude>
     <ClInclude Include="Mummies.h">
-      <Filter>GameObject\Boss</Filter>
+      <Filter>GameObject\DynamicObject\Boss</Filter>
     </ClInclude>
     <ClInclude Include="Blade.h">
-      <Filter>GameObject\Boss</Filter>
+      <Filter>GameObject\DynamicObject\Boss</Filter>
     </ClInclude>
     <ClInclude Include="NextBall.h">
-      <Filter>GameObject\Boss</Filter>
+      <Filter>GameObject\DynamicObject\Boss</Filter>
     </ClInclude>
     <ClInclude Include="Bat.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Fleaman.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Enemy.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Ghost.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="MedusaHead.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Raven.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Spearguard.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="BonePillar.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="FireBall.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Bone.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Skeleton.h">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClInclude>
     <ClInclude Include="Brickhidden.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Brickmoving.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="DeathPlace.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Door.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Fireandle.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Firetower.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Ground.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Stair.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Stair2.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Stairs.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Stairs2.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Trap.h">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClInclude>
     <ClInclude Include="Axe.h">
       <Filter>GameObject\Item</Filter>
@@ -233,16 +236,16 @@
       <Filter>GameObject\Item</Filter>
     </ClInclude>
     <ClInclude Include="Boomerang.h">
-      <Filter>GameObject\Player</Filter>
+      <Filter>GameObject\DynamicObject\Player</Filter>
     </ClInclude>
     <ClInclude Include="Simon.h">
-      <Filter>GameObject\Player</Filter>
+      <Filter>GameObject\DynamicObject\Player</Filter>
     </ClInclude>
     <ClInclude Include="Whip.h">
-      <Filter>GameObject\Player</Filter>
+      <Filter>GameObject\DynamicObject\Player</Filter>
     </ClInclude>
     <ClInclude Include="WeaponKnife.h">
-      <Filter>GameObject\Player</Filter>
+      <Filter>GameObject\DynamicObject\Player</Filter>
     </ClInclude>
     <ClInclude Include="State.h">
       <Filter>Game</Filter>
@@ -313,88 +316,88 @@
       <Filter>GameObject</Filter>
     </ClCompile>
     <ClCompile Include="Medusa.cpp">
-      <Filter>GameObject\Boss</Filter>
+      <Filter>GameObject\DynamicObject\Boss</Filter>
     </ClCompile>
     <ClCompile Include="Snake.cpp">
-      <Filter>GameObject\Boss</Filter>
+      <Filter>GameObject\DynamicObject\Boss</Filter>
     </ClCompile>
     <ClCompile Include="Mummies.cpp">
-      <Filter>GameObject\Boss</Filter>
+      <Filter>GameObject\DynamicObject\Boss</Filter>
     </ClCompile>
     <ClCompile Include="Blade.cpp">
-      <Filter>GameObject\Boss</Filter>
+      <Filter>GameObject\DynamicObject\Boss</Filter>
     </ClCompile>
     <ClCompile Include="NextBall.cpp">
-      <Filter>GameObject\Boss</Filter>
+      <Filter>GameObject\DynamicObject\Boss</Filter>
     </ClCompile>
     <ClCompile Include="Bat.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Fleaman.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Enemy.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Ghost.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="MedusaHead.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Raven.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Spearguard.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="BonePillar.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="FireBall.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Bone.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Skeleton.cpp">
-      <Filter>GameObject\Enemy</Filter>
+      <Filter>GameObject\DynamicObject\Enemy</Filter>
     </ClCompile>
     <ClCompile Include="Brickhidden.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Brickmoving.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="DeathPlace.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Door.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Fireandle.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Firetower.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Ground.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Stair.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Stair2.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Stairs.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Stairs2.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Trap.cpp">
-      <Filter>GameObject\AttackedObject</Filter>
+      <Filter>GameObject\StaticObject</Filter>
     </ClCompile>
     <ClCompile Include="Axe.cpp">
       <Filter>GameObject\Item</Filter>
@@ -439,16 +442,16 @@
       <Filter>GameObject\Item</Filter>
     </ClCompile>
     <ClCompile Include="Boomerang.cpp">
-      <Filter>GameObject\Player</Filter>
+      <Filter>GameObject\DynamicObject\Player</Filter>
     </ClCompile>
     <ClCompile Include="Simon.cpp">
-      <Filter>GameObject\Player</Filter>
+      <Filter>GameObject\DynamicObject\Player</Filter>
     </ClCompile>
     <ClCompile Include="Whip.cpp">
-      <Filter>GameObject\Player</Filter>
+      <Filter>GameObject\DynamicObject\Player</Filter>
     </ClCompile>
     <ClCompile Include="WeaponKnife.cpp">
-      <Filter>GameObject\Player</Filter>
+      <Filter>GameObject\DynamicObject\Player</Filter>
     </ClCompile>
     <ClCompile Include="State.cpp">
       <Filter>Game</Filter>
