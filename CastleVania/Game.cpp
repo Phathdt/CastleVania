@@ -114,20 +114,10 @@ void Game::OnKeyDown(int KeyCode)
 	{
 	case DIK_SPACE:
   		Simon::getCurrentSimon()->Jump(); break;
-	case DIK_C:
+	case DIK_Z:
 		Simon::getCurrentSimon()->Fight(0);
-		break;
-	/*case DIK_X:
-		Simon::getCurrentSimon()->ChangeState(STATE::CANT_HURT);
-		break;*/
-	case DIK_G:
-		Simon::getCurrentSimon()->Cheat();
-		break;
-	case DIK_DOWN:
-		if (!Simon::getCurrentSimon()->onGoto&&!(Simon::getCurrentSimon()->canGoStair() || Simon::getCurrentSimon()->isOnStair()))
-		Simon::getCurrentSimon()->dy = 20;
-		break;
-	case DIK_V: //subweapon attack
+		break;	
+	case DIK_X: //subweapon attack
 		if (!Boomerang::getCurrentBoomerang()->isFlying()
 			&& !WeaponKnife::getCurrentKnife()->isFlying()
 			&& Simon::getCurrentSimon()->getHeart() > 0){
@@ -135,6 +125,14 @@ void Game::OnKeyDown(int KeyCode)
 			Simon::getCurrentSimon()->Heal(-1);
 		}
 		break;
+	case DIK_G:
+		Simon::getCurrentSimon()->Cheat();
+		break;
+	case DIK_DOWN:
+		if (!Simon::getCurrentSimon()->onGoto&&!(Simon::getCurrentSimon()->canGoStair() || Simon::getCurrentSimon()->isOnStair()))
+		Simon::getCurrentSimon()->dy = 20;
+		break;
+	
 	case DIK_1:
 		Simon::getCurrentSimon()->Weapon = 1; //subweapon boomerang
 		Board::GetCurrentBoard()->setWheapon(1);
@@ -188,14 +186,9 @@ void Game::GameRun(float deltatime)
 
 void Game::GameDraw()
 {
-	//map->draw();
-	//GameDrawParameter();
 	GCamera::getCurrentCamera()->SetTransform();
-	//_mybackground->Draw(0, 0);
 	
 	State::getCurrentState()->draw();
-	
-	//_bricks->Draw();
 	listObject.clear();
 	Quadtree::getCurrentQuadtree()->_root->Retrieve(listObject);
 	Sort(listObject);

@@ -1,1167 +1,201 @@
-﻿Build started 01-Jan-17 5:19:17 AM.
-     1>Project "D:\Document\Project\CastleVania\CastleVania\CastleVania.vcxproj" on node 2 (Build target(s)).
+﻿Build started 01-Jan-17 8:32:29 PM.
+     1>Project "D:\CastleVania\CastleVania\CastleVania.vcxproj" on node 2 (Build target(s)).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FrameWork.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Axe.cpp Bat.cpp BigHeart.cpp Board.cpp Bone.cpp BonePillar.cpp Boomerang.cpp Brickhidden.cpp Brickmoving.cpp Bricks.cpp Cross.cpp DeathPlace.cpp Door.cpp DoubleShot.cpp Enemy.cpp FireBall.cpp Fireandle.cpp Fleaman.cpp Game.cpp Ghost.cpp HolyWater.cpp Item.cpp ItemNone.cpp KeyBoard.cpp Knife.cpp Main.cpp Medusa.cpp MedusaHead.cpp MoneyBag.cpp MorningStar.cpp Mummies.cpp NextBall.cpp Quadtree.cpp Raven.cpp Roast.cpp Rosary.cpp Simon.cpp Skeleton.cpp SmallHeart.cpp Spearguard.cpp SpiritBall.cpp Stair.cpp Stair2.cpp Stairs.cpp Stairs2.cpp State.cpp StopWatch.cpp SweptAABB.cpp Trap.cpp
-         SweptAABB.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\sweptaabb.cpp(177): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\sweptaabb.cpp(184): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\sweptaabb.cpp(228): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-         StopWatch.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\stopwatch.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\stopwatch.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\stopwatch.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stopwatch.cpp(11): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         State.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-         Stairs2.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stair2.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\stair2.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stairs2.cpp(14): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\stairs2.cpp(29): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\stairs2.cpp(40): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\stairs2.cpp(42): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\stairs2.cpp(65): warning C4305: '=' : truncation from 'double' to 'float'
-     1>d:\document\project\castlevania\castlevania\stairs2.cpp(66): warning C4305: '=' : truncation from 'double' to 'float'
-         Stairs.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stair.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\stair.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stairs.cpp(14): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\stairs.cpp(29): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\stairs.cpp(40): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\stairs.cpp(42): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\stairs.cpp(65): warning C4305: '=' : truncation from 'double' to 'float'
-     1>d:\document\project\castlevania\castlevania\stairs.cpp(66): warning C4305: '=' : truncation from 'double' to 'float'
-         Stair.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stair.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\stair.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stair.cpp(8): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\stair.cpp(40): warning C4305: '=' : truncation from 'double' to 'float'
-     1>d:\document\project\castlevania\castlevania\stair.cpp(41): warning C4305: '=' : truncation from 'double' to 'float'
-     1>d:\document\project\castlevania\castlevania\stair.cpp(58): warning C4305: '=' : truncation from 'double' to 'float'
-     1>d:\document\project\castlevania\castlevania\stair.cpp(59): warning C4305: '=' : truncation from 'double' to 'float'
-         SmallHeart.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\smallheart.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\smallheart.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\smallheart.cpp(10): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\smallheart.cpp(29): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\smallheart.cpp(33): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\smallheart.cpp(34): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\smallheart.cpp(41): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         Skeleton.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\enemy.h(10): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(10): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(13): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(45): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(46): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(47): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(53): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(54): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(57): warning C4305: '+=' : truncation from 'double' to 'float'
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(64): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(65): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(114): warning C4553: '==' : operator has no effect; did you intend '='?
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(132): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(133): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(155): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\skeleton.cpp(189): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         Simon.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.cpp(29): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(44): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(45): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(67): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(68): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(77): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(78): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(155): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(156): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(497): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(501): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(511): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(683): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\simon.cpp(684): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-         Rosary.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\rosary.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\rosary.h(7): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\rosary.cpp(11): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Roast.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\roast.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\roast.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\roast.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-         Quadtree.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\enemy.h(10): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\bat.h(15): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\spearguard.h(11): warning C4005: 'HP' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bat.h(16) : see previous definition of 'HP'
-     1>d:\document\project\castlevania\castlevania\spearguard.h(14): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bat.h(15) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\ghost.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\spearguard.h(14) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\medusahead.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\ghost.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\medusahead.h(12): warning C4005: 'HP' : macro redefinition
-                 d:\document\project\castlevania\castlevania\spearguard.h(11) : see previous definition of 'HP'
-     1>d:\document\project\castlevania\castlevania\bonepillar.h(15): warning C4005: '_ATTACK_RATE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\enemy.h(12) : see previous definition of '_ATTACK_RATE'
-     1>d:\document\project\castlevania\castlevania\fleaman.h(13): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\fleaman.h(14): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\medusahead.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\raven.h(16): warning C4005: 'DAMAGE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bat.h(17) : see previous definition of 'DAMAGE'
-     1>d:\document\project\castlevania\castlevania\ground.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\ground.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\enemy.h(10) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\brickhidden.h(9): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\ground.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\brickhidden.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\fleaman.h(13) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\brickhidden.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\fleaman.h(14) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\brickmoving.h(10): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\brickhidden.h(11) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\brickmoving.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\brickhidden.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\fireandle.h(10): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\ground.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\fireandle.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\brickmoving.h(10) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\fireandle.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\brickmoving.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\firetower.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\fireandle.h(11) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\firetower.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\fireandle.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stair.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\firetower.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\stair.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\firetower.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stair2.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stair.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\door.h(11): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\brickhidden.h(9) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\door.h(12): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\fireandle.h(10) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\door.h(13): warning C4005: '_ANIMATE_RATE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bonepillar.h(14) : see previous definition of '_ANIMATE_RATE'
-     1>d:\document\project\castlevania\castlevania\door.h(14): warning C4005: '_LIFETIME' : macro redefinition
-                 d:\document\project\castlevania\castlevania\ground.h(14) : see previous definition of '_LIFETIME'
-     1>d:\document\project\castlevania\castlevania\door.h(15): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stair.h(11) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\trap.h(8): warning C4005: '_SPRITE1' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bonepillar.h(17) : see previous definition of '_SPRITE1'
-     1>d:\document\project\castlevania\castlevania\trap.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\door.h(15) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\door.h(11) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\door.h(12) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(12): warning C4005: '_SPEED' : macro redefinition
-                 d:\document\project\castlevania\castlevania\enemy.h(11) : see previous definition of '_SPEED'
-     1>d:\document\project\castlevania\castlevania\item.h(14): warning C4005: '_LIFETIME' : macro redefinition
-                 d:\document\project\castlevania\castlevania\door.h(14) : see previous definition of '_LIFETIME'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\axe.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\axe.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\axe.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\trap.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\axe.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stair2.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\axe.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\axe.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\axe.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\axe.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\cross.h(7): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bigheart.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\cross.h(8): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bigheart.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\cross.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bigheart.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\cross.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bigheart.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\doubleshot.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\cross.h(7) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\doubleshot.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\cross.h(8) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\doubleshot.h(9): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\cross.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\holywater.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\cross.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\holywater.h(7): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\doubleshot.h(9) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\doubleshot.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\doubleshot.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\holywater.h(6) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\holywater.h(7) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\knife.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\itemnone.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\knife.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\itemnone.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\knife.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\itemnone.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\knife.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\itemnone.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\knife.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\knife.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\knife.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\knife.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\morningstar.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\moneybag.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\morningstar.h(7): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\moneybag.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\roast.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\moneybag.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\roast.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\moneybag.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\roast.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\morningstar.h(6) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\roast.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\morningstar.h(7) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\rosary.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\roast.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\rosary.h(7): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\roast.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\smallheart.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\rosary.h(6) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\smallheart.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\rosary.h(7) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\spiritball.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\roast.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\spiritball.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\roast.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\spiritball.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\smallheart.h(6) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\spiritball.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\smallheart.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stopwatch.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\spiritball.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\stopwatch.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\spiritball.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\stopwatch.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\spiritball.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\nextball.h(9): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stopwatch.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\nextball.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stopwatch.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\nextball.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stopwatch.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\medusa.h(14): warning C4005: '_ANIMATE_RATE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\door.h(13) : see previous definition of '_ANIMATE_RATE'
-     1>d:\document\project\castlevania\castlevania\mummies.h(21): warning C4005: 'DAMAGAE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\medusa.h(21) : see previous definition of 'DAMAGAE'
-         Mummies.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\nextball.h(9): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\nextball.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\nextball.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\mummies.cpp(10): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\mummies.cpp(158): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\mummies.cpp(171): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\mummies.cpp(172): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\mummies.cpp(232): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\mummies.cpp(233): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\mummies.cpp(270): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         MorningStar.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\morningstar.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\morningstar.h(7): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-         MoneyBag.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\moneybag.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\moneybag.cpp(11): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\moneybag.cpp(40): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         MedusaHead.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\enemy.h(10): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\medusahead.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\medusahead.cpp(8): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusahead.cpp(19): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusahead.cpp(61): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusahead.cpp(62): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusahead.cpp(78): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusahead.cpp(79): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusahead.cpp(86): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         Medusa.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\nextball.h(9): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\nextball.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\nextball.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\medusa.cpp(10): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusa.cpp(124): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusa.cpp(125): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusa.cpp(172): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusa.cpp(173): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\medusa.cpp(208): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         Knife.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\knife.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\knife.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\knife.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\knife.cpp(11): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         KeyBoard.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-         ItemNone.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\itemnone.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\itemnone.cpp(11): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Generating Code...
-         Compiling...
-         Item.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\item.cpp(15): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\item.cpp(33): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\item.cpp(36): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\item.cpp(37): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\item.cpp(52): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         HolyWater.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\holywater.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\holywater.h(7): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
          Game.cpp
          c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\enemy.h(10): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\bat.h(15): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\spearguard.h(11): warning C4005: 'HP' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bat.h(16) : see previous definition of 'HP'
-     1>d:\document\project\castlevania\castlevania\spearguard.h(14): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bat.h(15) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\ghost.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\spearguard.h(14) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\medusahead.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\ghost.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\medusahead.h(12): warning C4005: 'HP' : macro redefinition
-                 d:\document\project\castlevania\castlevania\spearguard.h(11) : see previous definition of 'HP'
-     1>d:\document\project\castlevania\castlevania\bonepillar.h(15): warning C4005: '_ATTACK_RATE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\enemy.h(12) : see previous definition of '_ATTACK_RATE'
-     1>d:\document\project\castlevania\castlevania\fleaman.h(13): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\fleaman.h(14): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\medusahead.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\raven.h(16): warning C4005: 'DAMAGE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bat.h(17) : see previous definition of 'DAMAGE'
-     1>d:\document\project\castlevania\castlevania\ground.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\ground.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\enemy.h(10) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\brickhidden.h(9): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\ground.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\brickhidden.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\fleaman.h(13) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\brickhidden.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\fleaman.h(14) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\brickmoving.h(10): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\brickhidden.h(11) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\brickmoving.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\brickhidden.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\fireandle.h(10): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\ground.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\fireandle.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\brickmoving.h(10) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\fireandle.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\brickmoving.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\firetower.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\fireandle.h(11) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\firetower.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\fireandle.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stair.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\firetower.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\stair.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\firetower.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stair2.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stair.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\door.h(11): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\brickhidden.h(9) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\door.h(12): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\fireandle.h(10) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\door.h(13): warning C4005: '_ANIMATE_RATE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bonepillar.h(14) : see previous definition of '_ANIMATE_RATE'
-     1>d:\document\project\castlevania\castlevania\door.h(14): warning C4005: '_LIFETIME' : macro redefinition
-                 d:\document\project\castlevania\castlevania\ground.h(14) : see previous definition of '_LIFETIME'
-     1>d:\document\project\castlevania\castlevania\door.h(15): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stair.h(11) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\trap.h(8): warning C4005: '_SPRITE1' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bonepillar.h(17) : see previous definition of '_SPRITE1'
-     1>d:\document\project\castlevania\castlevania\trap.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\door.h(15) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\door.h(11) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\door.h(12) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(12): warning C4005: '_SPEED' : macro redefinition
-                 d:\document\project\castlevania\castlevania\enemy.h(11) : see previous definition of '_SPEED'
-     1>d:\document\project\castlevania\castlevania\item.h(14): warning C4005: '_LIFETIME' : macro redefinition
-                 d:\document\project\castlevania\castlevania\door.h(14) : see previous definition of '_LIFETIME'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\axe.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\axe.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\axe.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\trap.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\axe.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stair2.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\axe.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\axe.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\axe.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\axe.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\cross.h(7): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bigheart.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\cross.h(8): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bigheart.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\cross.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bigheart.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\cross.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\bigheart.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\doubleshot.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\cross.h(7) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\doubleshot.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\cross.h(8) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\doubleshot.h(9): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\cross.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\holywater.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\cross.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\holywater.h(7): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\doubleshot.h(9) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\doubleshot.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\doubleshot.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\holywater.h(6) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\itemnone.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\holywater.h(7) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\knife.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\itemnone.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\knife.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\itemnone.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\knife.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\itemnone.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\knife.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\itemnone.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\knife.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\knife.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\knife.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\moneybag.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\knife.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\morningstar.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\moneybag.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\morningstar.h(7): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\moneybag.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\roast.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\moneybag.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\roast.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\moneybag.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\roast.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\morningstar.h(6) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\roast.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\morningstar.h(7) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\rosary.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\roast.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\rosary.h(7): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\roast.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\smallheart.h(6): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\rosary.h(6) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\smallheart.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\rosary.h(7) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\spiritball.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\roast.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\spiritball.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\roast.h(6) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\spiritball.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\smallheart.h(6) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\spiritball.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\smallheart.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\stopwatch.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\spiritball.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\stopwatch.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\spiritball.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\stopwatch.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\spiritball.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\nextball.h(9): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stopwatch.h(5) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\nextball.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stopwatch.h(7) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\nextball.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\stopwatch.h(8) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\medusa.h(14): warning C4005: '_ANIMATE_RATE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\door.h(13) : see previous definition of '_ANIMATE_RATE'
-     1>d:\document\project\castlevania\castlevania\mummies.h(21): warning C4005: 'DAMAGAE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\medusa.h(21) : see previous definition of 'DAMAGAE'
-         Fireandle.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\ground.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\ground.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\fireandle.h(10): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\fireandle.h(11): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\fireandle.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\fireandle.cpp(8): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Enemy.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\enemy.h(10): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\enemy.cpp(10): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\enemy.cpp(30): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\enemy.cpp(58): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\enemy.cpp(59): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\enemy.cpp(74): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\enemy.cpp(75): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\enemy.cpp(82): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         DoubleShot.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\doubleshot.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\doubleshot.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\doubleshot.h(9): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\doubleshot.cpp(21): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Cross.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\cross.h(7): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\cross.h(8): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\cross.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\cross.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\cross.cpp(11): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Bricks.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\bricks.cpp(32): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Brickmoving.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\enemy.h(10): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\brickmoving.h(10): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\brickmoving.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\brickmoving.cpp(8): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\brickmoving.cpp(35): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\brickmoving.cpp(36): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\brickmoving.cpp(52): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         Boomerang.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(7): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(8): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(8): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\boomerang.cpp(7): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\boomerang.cpp(70): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\boomerang.cpp(71): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\boomerang.cpp(90): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         Bone.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\bone.cpp(12): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bone.cpp(101): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bone.cpp(102): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bone.cpp(105): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bone.cpp(106): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         BigHeart.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bigheart.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\bigheart.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\bigheart.cpp(11): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Bat.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\enemy.h(10): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\bat.h(15): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\bat.cpp(9): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bat.cpp(14): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bat.cpp(54): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bat.cpp(55): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bat.cpp(110): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bat.cpp(111): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\bat.cpp(119): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         Axe.cpp
-         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\whip.h(6): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\whip.h(7): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\whip.h(10): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
-     1>d:\document\project\castlevania\castlevania\axe.h(5): warning C4005: '_WIDTH' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(10) : see previous definition of '_WIDTH'
-     1>d:\document\project\castlevania\castlevania\axe.h(6): warning C4005: '_HEIGHT' : macro redefinition
-                 d:\document\project\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
-     1>d:\document\project\castlevania\castlevania\axe.h(7): warning C4005: '_SPRITE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
-     1>d:\document\project\castlevania\castlevania\axe.h(8): warning C4005: 'TYPE' : macro redefinition
-                 d:\document\project\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
-     1>d:\document\project\castlevania\castlevania\axe.cpp(11): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-         Generating Code...
-         Skipping... (no relevant changes detected)
-         Trap.cpp
-         Stair2.cpp
-         SpiritBall.cpp
-         Spearguard.cpp
-         Raven.cpp
-         NextBall.cpp
-         Main.cpp
-         Ghost.cpp
-         Fleaman.cpp
-         FireBall.cpp
-         Door.cpp
-         DeathPlace.cpp
-         Brickhidden.cpp
-         BonePillar.cpp
-         Board.cpp
+     1>d:\castlevania\castlevania\boomerang.h(6): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\whip.h(6) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\boomerang.h(7): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\whip.h(7) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\boomerang.h(11): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\whip.h(10) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\weaponknife.h(9): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\boomerang.h(8) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\weaponknife.h(12): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\boomerang.h(11) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\simon.h(23): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\weaponknife.h(12) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\enemy.h(10): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\boomerang.h(7) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\bat.h(15): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\simon.h(23) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\spearguard.h(11): warning C4005: 'HP' : macro redefinition
+                 d:\castlevania\castlevania\bat.h(16) : see previous definition of 'HP'
+     1>d:\castlevania\castlevania\spearguard.h(14): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\bat.h(15) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\ghost.h(10): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\spearguard.h(14) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\medusahead.h(11): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\ghost.h(10) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\medusahead.h(12): warning C4005: 'HP' : macro redefinition
+                 d:\castlevania\castlevania\spearguard.h(11) : see previous definition of 'HP'
+     1>d:\castlevania\castlevania\bonepillar.h(15): warning C4005: '_ATTACK_RATE' : macro redefinition
+                 d:\castlevania\castlevania\enemy.h(12) : see previous definition of '_ATTACK_RATE'
+     1>d:\castlevania\castlevania\fleaman.h(13): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\weaponknife.h(9) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\fleaman.h(14): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\medusahead.h(11) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\raven.h(16): warning C4005: 'DAMAGE' : macro redefinition
+                 d:\castlevania\castlevania\bat.h(17) : see previous definition of 'DAMAGE'
+     1>d:\castlevania\castlevania\ground.h(10): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\boomerang.h(6) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\ground.h(11): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\enemy.h(10) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\brickhidden.h(9): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\ground.h(10) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\brickhidden.h(11): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\fleaman.h(13) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\brickhidden.h(12): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\fleaman.h(14) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\brickmoving.h(10): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\brickhidden.h(11) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\brickmoving.h(11): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\brickhidden.h(12) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\fireandle.h(10): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\ground.h(11) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\fireandle.h(11): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\brickmoving.h(10) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\fireandle.h(12): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\brickmoving.h(11) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\firetower.h(9): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\fireandle.h(11) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\firetower.h(10): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\fireandle.h(12) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\stair.h(11): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\firetower.h(9) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\stair.h(12): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\firetower.h(10) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\stair2.h(12): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\stair.h(12) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\door.h(11): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\brickhidden.h(9) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\door.h(12): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\fireandle.h(10) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\door.h(13): warning C4005: '_ANIMATE_RATE' : macro redefinition
+                 d:\castlevania\castlevania\bonepillar.h(14) : see previous definition of '_ANIMATE_RATE'
+     1>d:\castlevania\castlevania\door.h(14): warning C4005: '_LIFETIME' : macro redefinition
+                 d:\castlevania\castlevania\ground.h(14) : see previous definition of '_LIFETIME'
+     1>d:\castlevania\castlevania\door.h(15): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\stair.h(11) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\trap.h(8): warning C4005: '_SPRITE1' : macro redefinition
+                 d:\castlevania\castlevania\bonepillar.h(17) : see previous definition of '_SPRITE1'
+     1>d:\castlevania\castlevania\trap.h(9): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\door.h(15) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\item.h(10): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\door.h(11) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\item.h(11): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\door.h(12) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\item.h(12): warning C4005: '_SPEED' : macro redefinition
+                 d:\castlevania\castlevania\enemy.h(11) : see previous definition of '_SPEED'
+     1>d:\castlevania\castlevania\item.h(14): warning C4005: '_LIFETIME' : macro redefinition
+                 d:\castlevania\castlevania\door.h(14) : see previous definition of '_LIFETIME'
+     1>d:\castlevania\castlevania\item.h(35): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>d:\castlevania\castlevania\axe.h(5): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\item.h(10) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\axe.h(6): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\item.h(11) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\axe.h(7): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\trap.h(9) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\axe.h(8): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\stair2.h(12) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\bigheart.h(5): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\axe.h(5) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\bigheart.h(6): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\axe.h(6) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\bigheart.h(7): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\axe.h(7) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\bigheart.h(8): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\axe.h(8) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\cross.h(7): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\bigheart.h(5) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\cross.h(8): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\bigheart.h(6) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\cross.h(9): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\bigheart.h(7) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\cross.h(10): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\bigheart.h(8) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\doubleshot.h(5): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\cross.h(7) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\doubleshot.h(6): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\cross.h(8) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\doubleshot.h(9): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\cross.h(10) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\holywater.h(6): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\cross.h(9) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\holywater.h(7): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\doubleshot.h(9) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\itemnone.h(5): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\doubleshot.h(5) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\itemnone.h(6): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\doubleshot.h(6) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\itemnone.h(7): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\holywater.h(6) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\itemnone.h(8): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\holywater.h(7) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\knife.h(5): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\itemnone.h(5) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\knife.h(6): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\itemnone.h(6) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\knife.h(7): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\itemnone.h(7) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\knife.h(8): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\itemnone.h(8) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\moneybag.h(5): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\knife.h(5) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\moneybag.h(6): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\knife.h(6) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\moneybag.h(7): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\knife.h(7) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\moneybag.h(8): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\knife.h(8) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\morningstar.h(6): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\moneybag.h(7) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\morningstar.h(7): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\moneybag.h(8) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\roast.h(5): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\moneybag.h(5) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\roast.h(6): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\moneybag.h(6) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\roast.h(7): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\morningstar.h(6) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\roast.h(8): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\morningstar.h(7) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\rosary.h(6): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\roast.h(7) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\rosary.h(7): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\roast.h(8) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\smallheart.h(6): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\rosary.h(6) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\smallheart.h(8): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\rosary.h(7) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\spiritball.h(5): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\roast.h(5) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\spiritball.h(6): warning C4005: '_HEIGHT' : macro redefinition
+                 d:\castlevania\castlevania\roast.h(6) : see previous definition of '_HEIGHT'
+     1>d:\castlevania\castlevania\spiritball.h(7): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\smallheart.h(6) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\spiritball.h(8): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\smallheart.h(8) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\stopwatch.h(5): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\spiritball.h(5) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\stopwatch.h(7): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\spiritball.h(7) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\stopwatch.h(8): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\spiritball.h(8) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\nextball.h(9): warning C4005: '_WIDTH' : macro redefinition
+                 d:\castlevania\castlevania\stopwatch.h(5) : see previous definition of '_WIDTH'
+     1>d:\castlevania\castlevania\nextball.h(11): warning C4005: '_SPRITE' : macro redefinition
+                 d:\castlevania\castlevania\stopwatch.h(7) : see previous definition of '_SPRITE'
+     1>d:\castlevania\castlevania\nextball.h(12): warning C4005: 'TYPE' : macro redefinition
+                 d:\castlevania\castlevania\stopwatch.h(8) : see previous definition of 'TYPE'
+     1>d:\castlevania\castlevania\medusa.h(14): warning C4005: '_ANIMATE_RATE' : macro redefinition
+                 d:\castlevania\castlevania\door.h(13) : see previous definition of '_ANIMATE_RATE'
+     1>d:\castlevania\castlevania\mummies.h(21): warning C4005: 'DAMAGAE' : macro redefinition
+                 d:\castlevania\castlevania\medusa.h(21) : see previous definition of 'DAMAGAE'
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Document\Project\CastleVania\Debug\CastleVania.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dinput8.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Document\Project\CastleVania\Debug\CastleVania.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Document\Project\CastleVania\Debug\CastleVania.lib" /MACHINE:X86 Debug\Axe.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CastleVania\Debug\CastleVania.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dinput8.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CastleVania\Debug\CastleVania.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CastleVania\Debug\CastleVania.lib" /MACHINE:X86 Debug\Axe.obj
          Debug\Bat.obj
          Debug\BigHeart.obj
          Debug\Blade.obj
@@ -1230,9 +264,9 @@
          Debug\WeaponKnife.obj
          Debug\Whip.obj
          Debug\Windows.obj
-         CastleVania.vcxproj -> D:\Document\Project\CastleVania\Debug\CastleVania.exe
-     1>Done Building Project "D:\Document\Project\CastleVania\CastleVania\CastleVania.vcxproj" (Build target(s)).
+         CastleVania.vcxproj -> D:\CastleVania\Debug\CastleVania.exe
+     1>Done Building Project "D:\CastleVania\CastleVania\CastleVania.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:21.36
+Time Elapsed 00:00:01.67
